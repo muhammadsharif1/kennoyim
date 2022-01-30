@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="./css/main.css">
+	<title>10-DARS</title>
+</head>
+<body>
+
+	<div class="container">
+		<ul class="user__list" id="user_wrapper"></ul>
+
+		<hr>
+
+		<ul class="user__list" id="user-result">
+			<li class="user__item">
+				<img class="user__img" src="./images/85019.jpg" alt="image" width="100" height="100">
+				<p class="user__name" id="user-name">Valijon</p>
+				<p class="user__surname" id="user-surname">Valijonov</p>
+				<button class="btn btn-primary user__btn" id="user-btn">More</button>
+			</li>
+		</ul>
+	</div>
+
+	<template id="list_template">
+		<li class="user__item">
+			<img class="user__img" src="./images/85019.jpg" alt="image" width="100" height="100">
+			<p class="user__name" id="user-name">Valijon</p>
+			<p class="user__surname" id="user-surname">Valijonov</p>
+			<button class="btn btn-primary user__btn" id="user-btn">More</button>
+		</li>
+	</template>
+
+	
+	<!-- <script src="./js/app.js"></script> -->
+	<script src="./js/fetch.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>users API</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel = "stylesheet" href = "css/style.css">
+</head>
+<body>
+  
+  <div class = "container">
+    <div class = "user-wrapper">
+      <div class = "user-result">
+        <h2 class = "title">Users API</h2>
+        <div id= "user">
+          <!-- user item -->
+          <div class="row">
+            <div id="user_wrapper" class="col-4">
+              <!-- <div class = "user-item">
+                <div class = "user-img">
+                  <img class = "user__img" src = "" alt = "image" width="100" height="100">
+                </div>
+                <div class = "user-name">
+                  <h3 id="user-name">test</h3>
+                  <h3 id="user-surname">test</h3>
+                  <a id="user-btn btn" href = "#" class = "recipe-btn">More</a>
+                </div>
+              </div> -->
+            </div> 
+          </div>
+         
+          <!-- end of user item -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <template id="list_template">
+    <div class = "user-item">
+      <div class = "user-img">
+        <img class="user__img" src = "" alt = "food">
+      </div>
+      <div class = "user-name">
+        <h3 id="user-name">Valijon</h3>
+        <h3 id="user-surname">Valijonov</h3>
+        <!-- <a id="user-btn btn" href = "#" class = "recipe-btn">More</a> -->
+        <button id="user-btn" class="recipe-btn">More</button>
+      </div>
+  </template>
+
+  <script src = "js/main.js"></script>
+</body>
+</html>
